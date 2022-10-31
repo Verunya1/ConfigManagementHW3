@@ -1,0 +1,6 @@
+files ::= file files | empty
+file ::=  group student subject
+group ::= "(" "^" name names  ")"
+subject ::= "(" title ")"
+student ::= "(" "@" info infooo ")"
+title ::= name
